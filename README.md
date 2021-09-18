@@ -3,9 +3,13 @@
  HTML 5-CSS 3-JS ES6 - ECMAScript 2018
  
 ## APPLICATION
- - Modern Javascript Application - plain / vanilla JS 2021
- - Preliminary study for my Angular Organic Shop Project
  - Simulates an e-commerce shop’s simplified operations 
+ - Preliminary study for my Angular Organic Shop Project
+ - Modern Javascript Application - plain / vanilla JS 2021
+
+ ## Usage - Acknowledgement
+
+ - Project is based on the video syllabus of Webmania.cc - Thanks for the video syllabus to RRD
 
 ## Highlighted Features
  Application's functions:
@@ -22,11 +26,9 @@
  - global variables
  - debugging
 
-## Usage - Acknowledgement
-
- - Project is based on the video syllabus of Webmania.cc - Thanks for the video syllabus to RRD
-
 ## Files Included
  - index.html
- - app.js
- - styles.css
+ - app.js in js folder
+ - styles.css in css folder
+ - dist folder
+ - package.json
