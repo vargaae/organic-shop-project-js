@@ -1,0 +1,188 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+/*
+=============== 
+Global Styles
+===============
+*/
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #f2dfd7;
+  color: #283d3b;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background: #437f97;
+}
+
+/*
+=============== 
+Variables - JS MENU
+===============
+*/
+ul {
+  list-style-type: none;
+  padding: 0 1.5rem 0 1rem;
+  line-height: 3rem;
+}
+
+li {
+  white-space: nowrap;
+}
+
+i {
+  margin-right: 1rem;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+header {
+  margin-bottom: 1rem;
+  display: flex;
+  height: 4.5rem;
+  justify-content: space-between;
+}
+
+#burger,
+#cart-icon {
+  margin: 1rem 0 0 2.5rem;
+  color: #f2dfd7;
+  background-color: #197278;
+  font-size: 1.5rem;
+  z-index: 2;
+  border-radius: 50%;
+  padding: 0.8rem 0.8rem 0.8rem 1rem;
+  width: 1.3rem;
+  cursor: pointer;
+}
+
+#cart-icon {
+  margin: 1rem 2.5rem 0 0;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  padding-top: 3.8rem;
+  height: 100%;
+  background-color: #197278;
+  color: #edddd4;
+  transform: translateX(-10rem);
+  transition: transform 350ms ease-in-out;
+}
+
+nav a {
+  color: #edddd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-active {
+  transform: translateX(0);
+}
+
+main h1 {
+  margin: 0 1rem;
+}
+
+/*
+=============== 
+Variables - JS - CART CONTENT
+===============
+*/
+#cart-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 60%;
+  padding: 3.8rem 1rem;
+  height: 100%;
+  background-color: #331e38;
+  color: #edddd4;
+  transform: translateY(-140vh);
+  transition: transform 350ms ease-in-out;
+}
+
+#cart-content.active {
+  transform: translateY(0);
+}
+
+#cart-items li:last-child {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+/*
+=============== 
+Variables - JS - PRODUCTS
+===============
+*/
+#products {
+  display: flex;
+  margin: 0 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+#products h2 {
+  background-color: #5abcb9;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-bottom: 0.3rem solid #fff;
+}
+
+#products h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#products p {
+  font-variant: small-caps;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+#products img {
+  width: 75%;
+}
+
+#products a {
+  background-color: #197278; /*#7C6A0A;*/
+  color: #fff;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+/*
+=============== 
+MEDIA QUERIES
+===============
+*/
+@media (min-width: 640px) {
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #products div {
+    margin: 0 0.5rem;
+    width: 30%;
+  }
+}
