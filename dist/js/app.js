@@ -36,7 +36,7 @@ fetch('https://hur.webmania.cc/products.json')
             <img src="${product.picture}">
             <h3>${product.price}</h3>`
             if (product.stock) {
-                content += `<a id="${product.id}" class="addToCart">Kosárba</a>`
+                content += `<a id="${product.id}" class="addToCart">Kosárba teszem</a>`
             }
             else {
                 content += `Nem rendelhető`
