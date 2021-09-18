@@ -7,9 +7,11 @@
  - Preliminary study for my Angular Organic Shop Project
  - Modern Javascript Application - plain / vanilla JS 2021
 
- ## Usage - Acknowledgement
+ ## Usage - Language - Acknowledgement
 
- - Project is based on the video syllabus of Webmania.cc - Thanks for the video syllabus to RRD
+ - Project is based on the video syllabus of Webmania.cc 
+ - Application's default language is Hungarian because the fetched data is written in Hungarian
+ - Thanks for the video syllabus to RRD
 
 ## Highlighted Features
  Application's functions:
